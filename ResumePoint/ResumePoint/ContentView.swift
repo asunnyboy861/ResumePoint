@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var dependencies: DependencyContainer
     @State private var selectedTab = 0
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
     var body: some View {
         TabView(selection: $selectedTab) {

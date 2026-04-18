@@ -21,6 +21,7 @@ struct ContactSupportView: View {
             messageSection
             submitSection
         }
+        .frame(maxWidth: 600)
         .navigationTitle("Contact Support")
         .navigationBarTitleDisplayMode(.inline)
         .alert("Thank You!", isPresented: $showSuccess) {

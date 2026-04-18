@@ -39,8 +39,10 @@ struct HomeView: View {
                                     Task { await viewModel.deleteVideo(video) }
                                 }
                             )
+                            .frame(maxWidth: 700)
                             .frame(height: estimatedListHeight)
                         }
+                        .frame(maxWidth: .infinity)
                     }
                     .searchable(text: $viewModel.searchText, prompt: "Search videos...")
                 }

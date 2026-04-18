@@ -17,6 +17,7 @@ struct StatisticsView: View {
                     weeklyActivityChart
                     completionSection
                 }
+                .frame(maxWidth: 700)
                 .padding()
             }
             .background(Color(.systemGroupedBackground))

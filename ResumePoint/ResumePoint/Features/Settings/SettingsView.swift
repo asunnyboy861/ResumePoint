@@ -30,6 +30,7 @@ struct SettingsView: View {
                 dataSection
                 aboutSection
             }
+            .frame(maxWidth: 700)
             .navigationTitle("Settings")
             .task {
                 await viewModel.loadStats()
