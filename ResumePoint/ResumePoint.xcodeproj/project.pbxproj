@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B350CAFCD501234DD7EF7A4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E69FEC79DA69EA153CC3C71 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A1B4AAA2F909FA000D6F72A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1B4A942F909F9E00D6F72A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A1B4A9B2F909F9E00D6F72A;
+			remoteInfo = ResumePoint;
+		};
+		6A1B4AB42F909FA000D6F72A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1B4A942F909F9E00D6F72A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A1B4A9B2F909F9E00D6F72A;
+			remoteInfo = ResumePoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C642BA48046CFAFD1409A6A /* ResumePointWidget.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; name = ResumePointWidget.entitlements; path = ResumePointWidget/ResumePointWidget.entitlements; sourceTree = "<group>"; };
+		130D207DA895B24EEC3E8C94 /* MediumWidgetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediumWidgetView.swift; path = ResumePointWidget/MediumWidgetView.swift; sourceTree = "<group>"; };
+		15A2187DEF27744279D02E95 /* ResumePointWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResumePointWidget.swift; path = ResumePointWidget/ResumePointWidget.swift; sourceTree = "<group>"; };
+		1A728B3270D568737A284CFE /* VideoProgress+Widget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VideoProgress+Widget.swift"; path = "ResumePointWidget/VideoProgress+Widget.swift"; sourceTree = "<group>"; };
+		1E1FE3D091F5291631D64745 /* AppGroupConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppGroupConstants.swift; path = ResumePointWidget/AppGroupConstants.swift; sourceTree = "<group>"; };
+		20F82CE600B2AE69E78C57E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ResumePointWidget/Info.plist; sourceTree = "<group>"; };
+		270745332079315206EB67A5 /* WidgetTimelineProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetTimelineProvider.swift; path = ResumePointWidget/WidgetTimelineProvider.swift; sourceTree = "<group>"; };
+		29442177110043D7B78E6C1F /* ResumePointWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResumePointWidget.swift; path = ResumePointWidget/ResumePointWidget.swift; sourceTree = "<group>"; };
+		399E19DE0948D2BF1606B18E /* ResumePointWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResumePointWidget.swift; path = ResumePointWidget/ResumePointWidget.swift; sourceTree = "<group>"; };
+		3CF659C212A8AA2024C8593E /* WatchingLiveActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchingLiveActivity.swift; path = ResumePointWidget/WatchingLiveActivity.swift; sourceTree = "<group>"; };
+		3E1330FCF14AC9146A656F75 /* ProgressBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressBarView.swift; path = ResumePointWidget/ProgressBarView.swift; sourceTree = "<group>"; };
+		419C0C6A5E1BE4E81CAAF05F /* ResumePointWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ResumePointWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C2803F43FACE754835CBD6 /* VideoProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoProgress.swift; path = ResumePointWidget/VideoProgress.swift; sourceTree = "<group>"; };
+		4B0C1A43441262E8939C648D /* WatchingActivityAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchingActivityAttributes.swift; path = ResumePointWidget/WatchingActivityAttributes.swift; sourceTree = "<group>"; };
+		4FF5C7A29F1CFF0D66E38C8D /* LargeWidgetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LargeWidgetView.swift; path = ResumePointWidget/LargeWidgetView.swift; sourceTree = "<group>"; };
+		6A1B4A9C2F909F9E00D6F72A /* ResumePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1B4AA92F909FA000D6F72A /* ResumePointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumePointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1B4AB32F909FA000D6F72A /* ResumePointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumePointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		705766EBAF234BA45E8153E0 /* Color+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Extensions.swift"; path = "ResumePointWidget/Color+Extensions.swift"; sourceTree = "<group>"; };
+		79096DBA57F7DEEE8932532A /* SmallWidgetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmallWidgetView.swift; path = ResumePointWidget/SmallWidgetView.swift; sourceTree = "<group>"; };
+		7A7519A0C1F878B60AC289FD /* CoreDataStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = ResumePointWidget/CoreDataStack.swift; sourceTree = "<group>"; };
+		7E69FEC79DA69EA153CC3C71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C91A7AA7BFD2957841F8591 /* Double+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Extensions.swift"; path = "ResumePointWidget/Double+Extensions.swift"; sourceTree = "<group>"; };
+		967F6483CEA8DE490F22D2C5 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = ResumePointWidget/Platform.swift; sourceTree = "<group>"; };
+		983063658B23E93C644F547E /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ResumePointWidget/Constants.swift; sourceTree = "<group>"; };
+		A5BFAB26AD1B82AC46CBF84E /* ResumePointWidgetApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResumePointWidgetApp.swift; path = ResumePointWidget/ResumePointWidgetApp.swift; sourceTree = "<group>"; };
+		AD828D7D7B7C8BF2D72F57C3 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ResumePointWidget/Assets.xcassets; sourceTree = "<group>"; };
+		E1ADE55B3DADC8C0EC306FFE /* WidgetEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetEntry.swift; path = ResumePointWidget/WidgetEntry.swift; sourceTree = "<group>"; };
+		F745DDC30C5A39A51BB94C9C /* ProgressRing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressRing.swift; path = ResumePointWidget/ProgressRing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6A1B4A9E2F909F9E00D6F72A /* ResumePoint */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResumePoint;
+			sourceTree = "<group>";
+		};
+		6A1B4AAC2F909FA000D6F72A /* ResumePointTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResumePointTests;
+			sourceTree = "<group>";
+		};
+		6A1B4AB62F909FA000D6F72A /* ResumePointUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResumePointUITests;
+			sourceTree = "<group>";
+		};
+		A09FF96ED050C795E43A9D18 /* ResumePointWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResumePointWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A1B4A992F909F9E00D6F72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1B4AA62F909FA000D6F72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1B4AB02F909FA000D6F72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F6468532067E92895FED22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B350CAFCD501234DD7EF7A4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AAAD4CC7E142025600E522 /* ResumePointWidget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResumePointWidget;
+			sourceTree = "<group>";
+		};
+		2F29758028D95809EDB3FB9D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E69FEC79DA69EA153CC3C71 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		491956BD741AC1D8FB4A4D1A /* ResumePointWidget */ = {
+			isa = PBXGroup;
+			children = (
+				29442177110043D7B78E6C1F /* ResumePointWidget.swift */,
+				20F82CE600B2AE69E78C57E2 /* Info.plist */,
+				0C642BA48046CFAFD1409A6A /* ResumePointWidget.entitlements */,
+				399E19DE0948D2BF1606B18E /* ResumePointWidget.swift */,
+				983063658B23E93C644F547E /* Constants.swift */,
+				7A7519A0C1F878B60AC289FD /* CoreDataStack.swift */,
+				A5BFAB26AD1B82AC46CBF84E /* ResumePointWidgetApp.swift */,
+				130D207DA895B24EEC3E8C94 /* MediumWidgetView.swift */,
+				15A2187DEF27744279D02E95 /* ResumePointWidget.swift */,
+				270745332079315206EB67A5 /* WidgetTimelineProvider.swift */,
+				1E1FE3D091F5291631D64745 /* AppGroupConstants.swift */,
+				3E1330FCF14AC9146A656F75 /* ProgressBarView.swift */,
+				4FF5C7A29F1CFF0D66E38C8D /* LargeWidgetView.swift */,
+				79096DBA57F7DEEE8932532A /* SmallWidgetView.swift */,
+				E1ADE55B3DADC8C0EC306FFE /* WidgetEntry.swift */,
+				4B0C1A43441262E8939C648D /* WatchingActivityAttributes.swift */,
+				967F6483CEA8DE490F22D2C5 /* Platform.swift */,
+				1A728B3270D568737A284CFE /* VideoProgress+Widget.swift */,
+				705766EBAF234BA45E8153E0 /* Color+Extensions.swift */,
+				3CF659C212A8AA2024C8593E /* WatchingLiveActivity.swift */,
+				F745DDC30C5A39A51BB94C9C /* ProgressRing.swift */,
+				8C91A7AA7BFD2957841F8591 /* Double+Extensions.swift */,
+				44C2803F43FACE754835CBD6 /* VideoProgress.swift */,
+				AD828D7D7B7C8BF2D72F57C3 /* Assets.xcassets */,
+			);
+			name = ResumePointWidget;
+			sourceTree = "<group>";
+		};
+		61CB4D1587722C6316E9E01B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F29758028D95809EDB3FB9D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1B4A932F909F9E00D6F72A = {
+			isa = PBXGroup;
+			children = (
+				6A1B4A9E2F909F9E00D6F72A /* ResumePoint */,
+				6A1B4AAC2F909FA000D6F72A /* ResumePointTests */,
+				6A1B4AB62F909FA000D6F72A /* ResumePointUITests */,
+				6A1B4A9D2F909F9E00D6F72A /* Products */,
+				61CB4D1587722C6316E9E01B /* Frameworks */,
+				491956BD741AC1D8FB4A4D1A /* ResumePointWidget */,
+				13AAAD4CC7E142025600E522 /* ResumePointWidget */,
+				A09FF96ED050C795E43A9D18 /* ResumePointWidget */,
+			);
+			sourceTree = "<group>";
+		};
+		6A1B4A9D2F909F9E00D6F72A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A1B4A9C2F909F9E00D6F72A /* ResumePoint.app */,
+				6A1B4AA92F909FA000D6F72A /* ResumePointTests.xctest */,
+				6A1B4AB32F909FA000D6F72A /* ResumePointUITests.xctest */,
+				419C0C6A5E1BE4E81CAAF05F /* ResumePointWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A1B4A9B2F909F9E00D6F72A /* ResumePoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1B4ABD2F909FA000D6F72A /* Build configuration list for PBXNativeTarget "ResumePoint" */;
+			buildPhases = (
+				6A1B4A982F909F9E00D6F72A /* Sources */,
+				6A1B4A992F909F9E00D6F72A /* Frameworks */,
+				6A1B4A9A2F909F9E00D6F72A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6A1B4A9E2F909F9E00D6F72A /* ResumePoint */,
+			);
+			name = ResumePoint;
+			productName = ResumePoint;
+			productReference = 6A1B4A9C2F909F9E00D6F72A /* ResumePoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A1B4AA82F909FA000D6F72A /* ResumePointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1B4AC02F909FA000D6F72A /* Build configuration list for PBXNativeTarget "ResumePointTests" */;
+			buildPhases = (
+				6A1B4AA52F909FA000D6F72A /* Sources */,
+				6A1B4AA62F909FA000D6F72A /* Frameworks */,
+				6A1B4AA72F909FA000D6F72A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A1B4AAB2F909FA000D6F72A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A1B4AAC2F909FA000D6F72A /* ResumePointTests */,
+			);
+			name = ResumePointTests;
+			productName = ResumePointTests;
+			productReference = 6A1B4AA92F909FA000D6F72A /* ResumePointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A1B4AB22F909FA000D6F72A /* ResumePointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1B4AC32F909FA000D6F72A /* Build configuration list for PBXNativeTarget "ResumePointUITests" */;
+			buildPhases = (
+				6A1B4AAF2F909FA000D6F72A /* Sources */,
+				6A1B4AB02F909FA000D6F72A /* Frameworks */,
+				6A1B4AB12F909FA000D6F72A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A1B4AB52F909FA000D6F72A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A1B4AB62F909FA000D6F72A /* ResumePointUITests */,
+			);
+			name = ResumePointUITests;
+			productName = ResumePointUITests;
+			productReference = 6A1B4AB32F909FA000D6F72A /* ResumePointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C89AB4F18E1CB4563D9E1764 /* ResumePointWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B47834E7C3A86483455E862 /* Build configuration list for PBXNativeTarget "ResumePointWidget" */;
+			buildPhases = (
+				7AF2F721F1EB6E757EB1936A /* Sources */,
+				D5F6468532067E92895FED22 /* Frameworks */,
+				C0FBB04164D97F5095E46857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A09FF96ED050C795E43A9D18 /* ResumePointWidget */,
+			);
+			name = ResumePointWidget;
+			productName = ResumePointWidget;
+			productReference = 419C0C6A5E1BE4E81CAAF05F /* ResumePointWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A1B4A942F909F9E00D6F72A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					6A1B4A9B2F909F9E00D6F72A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					6A1B4AA82F909FA000D6F72A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6A1B4A9B2F909F9E00D6F72A;
+					};
+					6A1B4AB22F909FA000D6F72A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6A1B4A9B2F909F9E00D6F72A;
+					};
+				};
+			};
+			buildConfigurationList = 6A1B4A972F909F9E00D6F72A /* Build configuration list for PBXProject "ResumePoint" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A1B4A932F909F9E00D6F72A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A1B4A9D2F909F9E00D6F72A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A1B4A9B2F909F9E00D6F72A /* ResumePoint */,
+				6A1B4AA82F909FA000D6F72A /* ResumePointTests */,
+				6A1B4AB22F909FA000D6F72A /* ResumePointUITests */,
+				C89AB4F18E1CB4563D9E1764 /* ResumePointWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A1B4A9A2F909F9E00D6F72A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1B4AA72F909FA000D6F72A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1B4AB12F909FA000D6F72A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FBB04164D97F5095E46857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A1B4A982F909F9E00D6F72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1B4AA52F909FA000D6F72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1B4AAF2F909FA000D6F72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF2F721F1EB6E757EB1936A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A1B4AAB2F909FA000D6F72A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A1B4A9B2F909F9E00D6F72A /* ResumePoint */;
+			targetProxy = 6A1B4AAA2F909FA000D6F72A /* PBXContainerItemProxy */;
+		};
+		6A1B4AB52F909FA000D6F72A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A1B4A9B2F909F9E00D6F72A /* ResumePoint */;
+			targetProxy = 6A1B4AB42F909FA000D6F72A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A1B4ABB2F909FA000D6F72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A1B4ABC2F909FA000D6F72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A1B4ABE2F909FA000D6F72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResumePoint/ResumePoint.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.ResumePoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A1B4ABF2F909FA000D6F72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResumePoint/ResumePoint.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.ResumePoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A1B4AC12F909FA000D6F72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.ResumePointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumePoint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResumePoint";
+			};
+			name = Debug;
+		};
+		6A1B4AC22F909FA000D6F72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.ResumePointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumePoint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResumePoint";
+			};
+			name = Release;
+		};
+		6A1B4AC42F909FA000D6F72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.ResumePointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResumePoint;
+			};
+			name = Debug;
+		};
+		6A1B4AC52F909FA000D6F72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.ResumePointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResumePoint;
+			};
+			name = Release;
+		};
+		6EF5EA3EB77111B792E58A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ResumePointWidget/ResumePointWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ResumePoint;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.widget;
+				PRODUCT_MODULE_NAME = ResumePointWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0ABFFEE279C9111D1CCA135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ResumePointWidget/ResumePointWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ResumePoint;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ResumePoint.widget;
+				PRODUCT_MODULE_NAME = ResumePointWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A1B4A972F909F9E00D6F72A /* Build configuration list for PBXProject "ResumePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1B4ABB2F909FA000D6F72A /* Debug */,
+				6A1B4ABC2F909FA000D6F72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1B4ABD2F909FA000D6F72A /* Build configuration list for PBXNativeTarget "ResumePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1B4ABE2F909FA000D6F72A /* Debug */,
+				6A1B4ABF2F909FA000D6F72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1B4AC02F909FA000D6F72A /* Build configuration list for PBXNativeTarget "ResumePointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1B4AC12F909FA000D6F72A /* Debug */,
+				6A1B4AC22F909FA000D6F72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1B4AC32F909FA000D6F72A /* Build configuration list for PBXNativeTarget "ResumePointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1B4AC42F909FA000D6F72A /* Debug */,
+				6A1B4AC52F909FA000D6F72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B47834E7C3A86483455E862 /* Build configuration list for PBXNativeTarget "ResumePointWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF5EA3EB77111B792E58A02 /* Release */,
+				C0ABFFEE279C9111D1CCA135 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A1B4A942F909F9E00D6F72A /* Project object */;
+}
